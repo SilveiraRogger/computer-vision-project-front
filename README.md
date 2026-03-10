@@ -1,21 +1,3 @@
-npm run dev
-
-newgrp docker
-
-docker build -t front .
-
-docker run -d -p 3000:80 --name front front
-
-docker stop front
-
-docker start front
-
-docker rm -f front
-
-docker rmi front
-
-docker ps
-
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
